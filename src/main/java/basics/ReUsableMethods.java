@@ -1,0 +1,10 @@
+package basics;
+
+import io.restassured.path.json.JsonPath;
+
+public class ReUsableMethods {
+    public static JsonPath convertRawToJson(String response){
+        JsonPath jsonPath = new JsonPath( response);
+        return jsonPath;
+    }
+}
