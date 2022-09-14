@@ -43,9 +43,6 @@ public class BasicsTesting {
         System.out.println();
         Assert.assertEquals(actualAddress,inputedNewAddress);
 
-
-
-
     }
 
 
