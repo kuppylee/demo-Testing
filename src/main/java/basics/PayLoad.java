@@ -68,6 +68,15 @@ public class PayLoad {
                 "\n" +
                 "}";
     }
+
+    public static String booksDetails(String isbn, int aisle){
+        return "{\n" +
+                "\"name\":\"Selenium Automation\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"David Kuppy\"\n" +
+                "}";
+    }
 }
 
 
